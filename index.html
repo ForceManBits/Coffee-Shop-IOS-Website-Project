@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="tab icon" href="/Images/LogoCafeteriaIOS.png"
+    <link rel="icon" type="tab icon" href="/Images/LogoCafeteriaIOS.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria IOS</title>
@@ -11,42 +11,80 @@
 <body>
 
     <main>
-    <h1>Cafeteria IOS™</h1>
+   <header>
+        <h1>Cafeteria IOS™</h1>
+        <img src="/Images/LogoCafeteriaIOS.png">
     <p>Template finge que tem um Lorem aqui.</p>
+    </header>
 <br>
+
     <h2>Confira os nossos produtos! </h2>
     <br><br>    
-    <!--- Tabela início-->
+
+   <div class="produtos">
+    <img
+
+   </div>
+
+    <!--- Tabela início --->
+        
+
     <table>
             <tr> 
                 <th>Produto </th>
                 <th>Preço </th>
             </tr>
-        
+        <br>
             <tr>    
                 <td>Café para Todos</td>
+                <td> Grátis (apenas um por cliente) </td>
             </tr>
 
             <tr>
                 <td>Folhado Social</td>
+                <td>R$ 5,00</td>
             </tr>
 
             <tr>
                 <td>Rosquinha Coletiva</td>
-
+                <td>R$ 5,99</td>
             </tr>
 
             <tr>
-                <td>Bolo Cooperativo </td>
+                <td>Bolinho Cooperativo </td>
+                <td> R$ 3,00</td>
             </tr>
 
             <tr>
-                <td>Salgado da Oportunidade</td>
+                <td>Salgado da Oportunidade </td>
+                <td> R$ 3,50 </td>
             </tr>
         </table>
     <br>
 
         <h2>Deseja soliticar algo? Insira seus dados aqui:</h2>
+        <form> 
+            <br>
+            <label for="nome">Insira seu nome: </label> 
+            <br>
+            <input type="text" id="nome" name="nome"> <br><br>
+            <label for="endereco">Insira seu endereço: </label> 
+            <br>
+            <input type="text" id="endereco" name="endereco">
+                <br><br>
+                <label for="email">Insira seu E-Mail: </label> 
+            <br>
+            <input type="text" id="email" name="email">
+            <br><br>
+            <label for="payday"> Forma de Pagamento:</label><br>
+            <input type="radio" id="payday" name="payday"> <label>Pix</label>
+            <br>
+            <input type="radio" id="payday" name="payday"> <label>Dinheiro</label>
+            <br>
+            <input type="radio" id="payday" name="payday"> <label>Cartão de Crédito ou Débito</label>
+
+
+        </form>
 
 
     
@@ -54,7 +92,14 @@
 
 
 </body>
-<footer>
 
+<div class="localizacao">
+    <p> Venha nos ver!</p>
+    <h6> Rua Essas, Av. 69, Batman</h6>
+
+</div>
+<footer>
+    
+    <p> Por Guilherme Reis, Desenvolvedor Web |30 de Outubro de 2023|</p>
 </footer>
 </html>
